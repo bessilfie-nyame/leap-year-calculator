@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	background-image: url("./img/background.jpg");
+}
+
+#container {
+	height: 20rem;
+	width: 20rem;
+	margin: auto;
+	margin-top: 8rem;
+	background-color: purple;
+}
+
+#heading {
+	color: white;
+	text-align: center;
+}
+
+form {
+	height: 7rem;
+	width: 100%;
+}
+
+label {
+	margin-left: 2.4rem;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+input {
+	margin: 0.5rem 0 0 0rem;
+	padding: 1rem;
+	font-size: 0.8rem;
+	font-weight: 900;
+}
+
+input:first-child {
+	margin-top: 0rem;
+}
+
+input:nth-child(-n+5) {
+	width: 7rem;
+}
+
+input:last-child {
+	margin-left: 7rem;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+input:last-child:hover {
+	cursor: pointer;
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -webkit-tap-highlight-color: transparent;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px; 
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px; 
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px; 
+}
+
+hr {
+	border: 1.5px solid black; 
+}
+
+#result {
+	height: 7rem;
+	width: 100%;
+}
+
+#result p:first-child {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+#result span {
+	color: white;
+}
+
+#result p:last-child {
+	margin: auto;
+	width: 20rem;
+	font-size: 1.3rem;
+	background-color: white;
+}
